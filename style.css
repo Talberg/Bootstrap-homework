@@ -1,0 +1,56 @@
+
+/* .container{
+    background-image: url("https://videohive.img.customer.envatousercontent.com/files/247617861/Preview%20Image.jpg?auto=compress%2Cformat&fit=crop&crop=top&max-h=8000&max-w=590&s=12a33ad0048631a0e28571ca46ac437c"); */
+/* } */
+
+html,
+body {
+  height: 100%;
+}
+
+#page-content {
+  flex: 1 0 auto;
+}
+
+#sticky-footer {
+  flex-shrink: none;
+}
+.
+/* Other Classes for Page Styling */
+
+footer{
+    margin-top: 100px;
+    
+}
+#sticky-footer{
+    margin-top: 90%;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+.float-right{
+  float: left
+  ;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:640px)
+
+{
+
+  
+ body{
+   ;
+ }
+
+}
+
