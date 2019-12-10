@@ -1,56 +1,84 @@
+body{
+  height: 150%;
+}
+.b{
+  height: 150%;
+}
+.img{
 
-/* .container{
-    background-image: url("https://videohive.img.customer.envatousercontent.com/files/247617861/Preview%20Image.jpg?auto=compress%2Cformat&fit=crop&crop=top&max-h=8000&max-w=590&s=12a33ad0048631a0e28571ca46ac437c"); */
-/* } */
+}
+.text-over-img{
 
-html,
-body {
-  height: 100%;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.thumbnail {
+    position: relative;
 }
 
-#page-content {
-  flex: 1 0 auto;
-}
-
-#sticky-footer {
-  flex-shrink: none;
-}
-.
-/* Other Classes for Page Styling */
-
-footer{
-    margin-top: 100px;
+.caption-trivia {
     
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 40%; /* Adjust this value to move the positioned div up and down */
+    text-align: center;
+    width: 150px; /* Set the width of the positioned div */
+;
 }
-#sticky-footer{
-    margin-top: 90%;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+.caption-r-p-s {
+  position: absolute;
+  z-index: 999;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: 40%; /* Adjust this value to move the positioned div up and down */
+  text-align: center;
+  width: 150px;
+  height: 50px;
 }
-.float-right{
-  float: left
-  ;
+.caption-info-widget {
+    position: absolute;
+    top: 45%;
+    left: 19%;
+    width: 61%;
+}
+.caption-word-guess {
+    position: absolute;
+    top: 45%;
+    left: 19%;
+    width: 61%;
+}
+.caption-rpg {
+    position: absolute;
+    top: 45%;
+    left: 19%;
+    width: 61%;
+}
+.card-img-overlay{
+  padding: 0;
+  bottom: 0;
+  top:  136px;
+}
+.card{
+  height: 200px ;
+  width:  200px ;
+  margin-top: 15px;
+}
+.card-img{
+  height: 198px;
+  width: 198px;
+}
+.position-absolute{
+  bottom: 0;
 }
 
-
-
-
-
-
-
-
-
-
-
-@media only screen and (max-width:640px)
-
-{
-
-  
- body{
-   ;
- }
-
+.bottom-row{
+  margin-bottom: 100%;
 }
-
